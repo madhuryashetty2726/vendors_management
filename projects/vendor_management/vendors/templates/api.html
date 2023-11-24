@@ -1,0 +1,11 @@
+<!-- vendors/templates/api.html -->
+{% extends "rest_framework/base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Vendors API</h1>
+    {% block page %}
+    {{ content }}
+    {% endblock %}
+</div>
+{% endblock %}
